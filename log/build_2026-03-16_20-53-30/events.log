@@ -1,0 +1,993 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (roberto) JobQueued: {'identifier': 'roberto', 'dependencies': OrderedDict()}
+[0.000261] (roberto) JobStarted: {'identifier': 'roberto'}
+[0.009595] (roberto) JobProgress: {'identifier': 'roberto', 'progress': 'cmake'}
+[0.011491] (roberto) Command: {'cmd': ['/usr/bin/cmake', '/root/ROS2/turtlebot3_ws/src/roberto', '-DCMAKE_INSTALL_PREFIX=/root/ROS2/turtlebot3_ws/src/roberto/install/roberto'], 'cwd': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'env': OrderedDict({'GZ_SLEEP_BEFORE_STARTUP_SECS': '2', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/opt/ros/jazzy/share/turtlebot3_gazebo/models', 'USER': 'root', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'NAME': 'DESKTOP-30Q2FHM', 'WSL_INTEROP': '/run/WSL/322_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ogre_vulkan_render_system': '0', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/josue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josue/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josue/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '47c8a665-b12f-40af-81d5-436bd64c376b', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': '8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '4.1', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.098710] (-) TimerEvent: {}
+[0.199040] (-) TimerEvent: {}
+[0.217899] (roberto) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299122] (-) TimerEvent: {}
+[0.399422] (-) TimerEvent: {}
+[0.499751] (-) TimerEvent: {}
+[0.600085] (-) TimerEvent: {}
+[0.700446] (-) TimerEvent: {}
+[0.800860] (-) TimerEvent: {}
+[0.901218] (-) TimerEvent: {}
+[1.001621] (-) TimerEvent: {}
+[1.101985] (-) TimerEvent: {}
+[1.202420] (-) TimerEvent: {}
+[1.215182] (roberto) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.302604] (-) TimerEvent: {}
+[1.402954] (-) TimerEvent: {}
+[1.503317] (-) TimerEvent: {}
+[1.603666] (-) TimerEvent: {}
+[1.704034] (-) TimerEvent: {}
+[1.804445] (-) TimerEvent: {}
+[1.904789] (-) TimerEvent: {}
+[2.005135] (-) TimerEvent: {}
+[2.105560] (-) TimerEvent: {}
+[2.205896] (-) TimerEvent: {}
+[2.224716] (roberto) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.306092] (-) TimerEvent: {}
+[2.406511] (-) TimerEvent: {}
+[2.506870] (-) TimerEvent: {}
+[2.607296] (-) TimerEvent: {}
+[2.622345] (roberto) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.632258] (roberto) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.632590] (roberto) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.633027] (roberto) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.707443] (-) TimerEvent: {}
+[2.787692] (roberto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.807571] (-) TimerEvent: {}
+[2.907958] (-) TimerEvent: {}
+[3.008333] (-) TimerEvent: {}
+[3.108686] (-) TimerEvent: {}
+[3.192298] (roberto) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.202645] (roberto) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.202992] (roberto) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.203522] (roberto) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.208799] (-) TimerEvent: {}
+[3.209078] (roberto) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.308919] (-) TimerEvent: {}
+[3.402599] (roberto) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.409110] (-) TimerEvent: {}
+[3.509642] (-) TimerEvent: {}
+[3.555705] (roberto) StdoutLine: {'line': b'-- Found ros_gz_sim: 1.0.18 (/opt/ros/jazzy/share/ros_gz_sim/cmake)\n'}
+[3.609817] (-) TimerEvent: {}
+[3.710243] (-) TimerEvent: {}
+[3.810636] (-) TimerEvent: {}
+[3.848060] (roberto) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.871261] (roberto) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.895809] (roberto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.910801] (-) TimerEvent: {}
+[3.922511] (roberto) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.010930] (-) TimerEvent: {}
+[4.027606] (roberto) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.032725] (roberto) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.111034] (-) TimerEvent: {}
+[4.143634] (roberto) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.211180] (-) TimerEvent: {}
+[4.311556] (-) TimerEvent: {}
+[4.411891] (-) TimerEvent: {}
+[4.424916] (roberto) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.512007] (-) TimerEvent: {}
+[4.581103] (roberto) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.612145] (-) TimerEvent: {}
+[4.712447] (-) TimerEvent: {}
+[4.812765] (-) TimerEvent: {}
+[4.913116] (-) TimerEvent: {}
+[5.013462] (-) TimerEvent: {}
+[5.098611] (roberto) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[5.113604] (-) TimerEvent: {}
+[5.130958] (roberto) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.160480] (roberto) StdoutLine: {'line': b'-- Found gz_math_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_math_vendor/cmake)\n'}
+[5.173435] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[5.181835] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[5.184556] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[5.184792] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[5.189975] (roberto) StdoutLine: {'line': b'-- Found gz_sim_vendor: 0.0.9 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)\n'}
+[5.213725] (-) TimerEvent: {}
+[5.265025] (roberto) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.10.0\n'}
+[5.265233] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[5.267892] (roberto) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[5.268170] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[5.274218] (roberto) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[5.293475] (roberto) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[5.313881] (-) TimerEvent: {}
+[5.336825] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[5.337240] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[5.337629] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[5.338049] (roberto) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[5.341874] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[5.342094] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[5.346486] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[5.346860] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[5.347097] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[5.347615] (roberto) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[5.350983] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[5.351194] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[5.351701] (roberto) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[5.355228] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[5.355497] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[5.359044] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[5.359279] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[5.414046] (-) TimerEvent: {}
+[5.514376] (-) TimerEvent: {}
+[5.614696] (-) TimerEvent: {}
+[5.715054] (-) TimerEvent: {}
+[5.815366] (-) TimerEvent: {}
+[5.915672] (-) TimerEvent: {}
+[6.015987] (-) TimerEvent: {}
+[6.116400] (-) TimerEvent: {}
+[6.216785] (-) TimerEvent: {}
+[6.317132] (-) TimerEvent: {}
+[6.417450] (-) TimerEvent: {}
+[6.517773] (-) TimerEvent: {}
+[6.618125] (-) TimerEvent: {}
+[6.718448] (-) TimerEvent: {}
+[6.818797] (-) TimerEvent: {}
+[6.919153] (-) TimerEvent: {}
+[7.019466] (-) TimerEvent: {}
+[7.119843] (-) TimerEvent: {}
+[7.220265] (-) TimerEvent: {}
+[7.320655] (-) TimerEvent: {}
+[7.421046] (-) TimerEvent: {}
+[7.521437] (-) TimerEvent: {}
+[7.621788] (-) TimerEvent: {}
+[7.722191] (-) TimerEvent: {}
+[7.822581] (-) TimerEvent: {}
+[7.922968] (-) TimerEvent: {}
+[8.023355] (-) TimerEvent: {}
+[8.048156] (roberto) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") \n'}
+[8.123554] (-) TimerEvent: {}
+[8.223974] (-) TimerEvent: {}
+[8.324362] (-) TimerEvent: {}
+[8.424772] (-) TimerEvent: {}
+[8.525202] (-) TimerEvent: {}
+[8.625602] (-) TimerEvent: {}
+[8.726056] (-) TimerEvent: {}
+[8.826464] (-) TimerEvent: {}
+[8.926889] (-) TimerEvent: {}
+[9.027247] (-) TimerEvent: {}
+[9.127590] (-) TimerEvent: {}
+[9.228024] (-) TimerEvent: {}
+[9.328456] (-) TimerEvent: {}
+[9.428859] (-) TimerEvent: {}
+[9.529271] (-) TimerEvent: {}
+[9.629643] (-) TimerEvent: {}
+[9.730001] (-) TimerEvent: {}
+[9.830357] (-) TimerEvent: {}
+[9.899895] (roberto) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[9.906553] (roberto) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[9.927319] (roberto) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[9.930477] (-) TimerEvent: {}
+[9.987600] (roberto) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[10.030620] (-) TimerEvent: {}
+[10.067926] (roberto) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[10.089073] (roberto) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[10.130765] (-) TimerEvent: {}
+[10.136991] (roberto) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[10.137496] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[10.141485] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[10.141741] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[10.230963] (-) TimerEvent: {}
+[10.331308] (-) TimerEvent: {}
+[10.431650] (-) TimerEvent: {}
+[10.532042] (-) TimerEvent: {}
+[10.632399] (-) TimerEvent: {}
+[10.732733] (-) TimerEvent: {}
+[10.833051] (-) TimerEvent: {}
+[10.933414] (-) TimerEvent: {}
+[11.033776] (-) TimerEvent: {}
+[11.134142] (-) TimerEvent: {}
+[11.234569] (-) TimerEvent: {}
+[11.334901] (-) TimerEvent: {}
+[11.435231] (-) TimerEvent: {}
+[11.535654] (-) TimerEvent: {}
+[11.636016] (-) TimerEvent: {}
+[11.736410] (-) TimerEvent: {}
+[11.836829] (-) TimerEvent: {}
+[11.937123] (-) TimerEvent: {}
+[11.988919] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[11.989297] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[11.997586] (roberto) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[12.000970] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[12.001245] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[12.001754] (roberto) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[12.005004] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[12.005307] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[12.006317] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[12.010128] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[12.010344] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[12.010694] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[12.037277] (-) TimerEvent: {}
+[12.076889] (roberto) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[12.137402] (-) TimerEvent: {}
+[12.143225] (roberto) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[12.144762] (roberto) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[12.152309] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[12.156170] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[12.156481] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[12.162363] (roberto) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[12.181944] (roberto) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[12.227407] (roberto) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[12.233472] (roberto) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[12.237548] (-) TimerEvent: {}
+[12.253728] (roberto) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[12.313192] (roberto) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[12.319177] (roberto) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[12.337720] (-) TimerEvent: {}
+[12.339572] (roberto) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[12.390308] (roberto) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[12.396429] (roberto) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[12.417326] (roberto) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[12.437839] (-) TimerEvent: {}
+[12.465947] (roberto) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[12.472552] (roberto) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[12.492795] (roberto) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[12.536924] (roberto) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[12.537617] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[12.537904] (-) TimerEvent: {}
+[12.542080] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[12.542391] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[12.542747] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[12.543436] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[12.547240] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[12.547517] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[12.547823] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[12.555236] (roberto) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.3.0") \n'}
+[12.555894] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[12.559716] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[12.560090] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[12.560768] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[12.564500] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[12.564860] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[12.569110] (roberto) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[12.569427] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[12.638049] (-) TimerEvent: {}
+[12.738367] (-) TimerEvent: {}
+[12.838676] (-) TimerEvent: {}
+[12.938968] (-) TimerEvent: {}
+[13.039255] (-) TimerEvent: {}
+[13.139584] (-) TimerEvent: {}
+[13.239898] (-) TimerEvent: {}
+[13.340262] (-) TimerEvent: {}
+[13.440599] (-) TimerEvent: {}
+[13.540927] (-) TimerEvent: {}
+[13.641219] (-) TimerEvent: {}
+[13.741450] (-) TimerEvent: {}
+[13.841750] (-) TimerEvent: {}
+[13.942096] (-) TimerEvent: {}
+[14.042475] (-) TimerEvent: {}
+[14.142772] (-) TimerEvent: {}
+[14.243081] (-) TimerEvent: {}
+[14.343336] (-) TimerEvent: {}
+[14.443577] (roberto) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[14.443752] (-) TimerEvent: {}
+[14.458068] (roberto) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[14.479675] (roberto) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[14.525643] (roberto) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[14.543842] (-) TimerEvent: {}
+[14.644241] (-) TimerEvent: {}
+[14.744562] (-) TimerEvent: {}
+[14.844889] (-) TimerEvent: {}
+[14.945251] (-) TimerEvent: {}
+[15.045679] (-) TimerEvent: {}
+[15.146087] (-) TimerEvent: {}
+[15.246463] (-) TimerEvent: {}
+[15.346859] (-) TimerEvent: {}
+[15.447175] (-) TimerEvent: {}
+[15.547493] (-) TimerEvent: {}
+[15.647881] (-) TimerEvent: {}
+[15.748237] (-) TimerEvent: {}
+[15.848551] (-) TimerEvent: {}
+[15.949001] (-) TimerEvent: {}
+[16.049411] (-) TimerEvent: {}
+[16.149835] (-) TimerEvent: {}
+[16.250227] (-) TimerEvent: {}
+[16.338553] (roberto) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[16.350363] (-) TimerEvent: {}
+[16.361038] (roberto) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[16.411903] (roberto) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[16.418672] (roberto) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[16.442011] (roberto) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[16.450531] (-) TimerEvent: {}
+[16.492368] (roberto) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[16.492894] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[16.493438] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[16.493701] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[16.494122] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[16.494356] (roberto) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[16.494474] (roberto) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[16.504332] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[16.508645] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[16.508910] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[16.510126] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[16.510619] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[16.514645] (roberto) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[16.514881] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[16.550719] (-) TimerEvent: {}
+[16.651145] (-) TimerEvent: {}
+[16.751832] (-) TimerEvent: {}
+[16.852486] (-) TimerEvent: {}
+[16.952955] (-) TimerEvent: {}
+[17.053475] (-) TimerEvent: {}
+[17.154277] (-) TimerEvent: {}
+[17.254681] (-) TimerEvent: {}
+[17.355049] (-) TimerEvent: {}
+[17.455503] (-) TimerEvent: {}
+[17.555833] (-) TimerEvent: {}
+[17.656342] (-) TimerEvent: {}
+[17.756883] (-) TimerEvent: {}
+[17.857194] (-) TimerEvent: {}
+[17.957517] (-) TimerEvent: {}
+[18.057893] (-) TimerEvent: {}
+[18.158257] (-) TimerEvent: {}
+[18.258613] (-) TimerEvent: {}
+[18.358925] (-) TimerEvent: {}
+[18.390577] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.391067] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[18.391600] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[18.392223] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[18.392841] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[18.397002] (roberto) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[18.397414] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[18.397897] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[18.398540] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[18.399519] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.399862] (roberto) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[18.405810] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[18.406127] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[18.417673] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[18.418073] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[18.418402] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.419078] (roberto) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[18.419342] (roberto) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[18.431144] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[18.431341] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[18.431433] (roberto) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[18.435629] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[18.436250] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[18.437167] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[18.438187] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[18.439504] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[18.439757] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[18.440228] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.440536] (roberto) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[18.444043] (roberto) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[18.444739] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[18.445826] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[18.459107] (-) TimerEvent: {}
+[18.559502] (-) TimerEvent: {}
+[18.659830] (-) TimerEvent: {}
+[18.760194] (-) TimerEvent: {}
+[18.860504] (-) TimerEvent: {}
+[18.960811] (-) TimerEvent: {}
+[19.061121] (-) TimerEvent: {}
+[19.161490] (-) TimerEvent: {}
+[19.261795] (-) TimerEvent: {}
+[19.362174] (-) TimerEvent: {}
+[19.462574] (-) TimerEvent: {}
+[19.562960] (-) TimerEvent: {}
+[19.591686] (roberto) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[19.593231] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[19.663112] (-) TimerEvent: {}
+[19.763458] (-) TimerEvent: {}
+[19.820441] (roberto) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[19.820757] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[19.821166] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[19.821705] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[19.822204] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[19.822757] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[19.824228] (roberto) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[19.827374] (roberto) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[19.827698] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[19.828132] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[19.828733] (roberto) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[19.831785] (roberto) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[19.832010] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[19.832479] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[19.833044] (roberto) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[19.836399] (roberto) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[19.836787] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[19.837310] (roberto) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[19.842536] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[19.842768] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[19.863625] (-) TimerEvent: {}
+[19.963957] (-) TimerEvent: {}
+[20.064398] (-) TimerEvent: {}
+[20.165085] (-) TimerEvent: {}
+[20.265410] (-) TimerEvent: {}
+[20.365774] (-) TimerEvent: {}
+[20.466470] (-) TimerEvent: {}
+[20.566801] (-) TimerEvent: {}
+[20.667200] (-) TimerEvent: {}
+[20.767686] (-) TimerEvent: {}
+[20.868008] (-) TimerEvent: {}
+[20.968379] (-) TimerEvent: {}
+[21.068719] (-) TimerEvent: {}
+[21.169139] (-) TimerEvent: {}
+[21.269420] (-) TimerEvent: {}
+[21.369851] (-) TimerEvent: {}
+[21.470197] (-) TimerEvent: {}
+[21.570552] (-) TimerEvent: {}
+[21.589585] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[21.590004] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[21.590573] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[21.591385] (roberto) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[21.592249] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[21.593464] (roberto) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[21.594992] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[21.598086] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[21.598388] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[21.598914] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[21.601634] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[21.601923] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[21.602423] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[21.605158] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[21.605382] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[21.605943] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[21.609676] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[21.610024] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[21.610438] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[21.613240] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[21.613479] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[21.614051] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[21.616789] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[21.617064] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[21.617585] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[21.620485] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[21.620795] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[21.621330] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[21.625157] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[21.625717] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[21.626285] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[21.629150] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[21.629385] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[21.629811] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[21.630015] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[21.670674] (-) TimerEvent: {}
+[21.771041] (-) TimerEvent: {}
+[21.871341] (-) TimerEvent: {}
+[21.971694] (-) TimerEvent: {}
+[22.072113] (-) TimerEvent: {}
+[22.172490] (-) TimerEvent: {}
+[22.272807] (-) TimerEvent: {}
+[22.373148] (-) TimerEvent: {}
+[22.473713] (-) TimerEvent: {}
+[22.574392] (-) TimerEvent: {}
+[22.674938] (-) TimerEvent: {}
+[22.775362] (-) TimerEvent: {}
+[22.875736] (-) TimerEvent: {}
+[22.976105] (-) TimerEvent: {}
+[23.076512] (-) TimerEvent: {}
+[23.176871] (-) TimerEvent: {}
+[23.277208] (-) TimerEvent: {}
+[23.377528] (-) TimerEvent: {}
+[23.449970] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[23.450968] (roberto) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[23.454760] (roberto) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[23.456185] (roberto) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[23.457854] (roberto) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[23.458911] (roberto) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[23.459413] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[23.464483] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[23.464872] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[23.477721] (-) TimerEvent: {}
+[23.485864] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[23.486140] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[23.486291] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[23.486434] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[23.494075] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.500222] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[23.500506] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[23.500659] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[23.500822] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.501248] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[23.506160] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[23.506541] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[23.507515] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.508484] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[23.511543] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[23.511836] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[23.512467] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[23.515568] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[23.515904] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[23.516487] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[23.520536] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[23.521314] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[23.523615] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.525606] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[23.530230] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[23.530592] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[23.531214] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.532040] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[23.535422] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[23.535754] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[23.536221] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[23.536956] (roberto) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[23.540111] (roberto) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[23.540385] (roberto) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[23.541757] (roberto) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[23.542190] (roberto) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[23.542876] (roberto) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[23.577841] (-) TimerEvent: {}
+[23.678164] (-) TimerEvent: {}
+[23.778538] (-) TimerEvent: {}
+[23.878922] (-) TimerEvent: {}
+[23.979266] (-) TimerEvent: {}
+[24.079607] (-) TimerEvent: {}
+[24.180019] (-) TimerEvent: {}
+[24.280367] (-) TimerEvent: {}
+[24.380745] (-) TimerEvent: {}
+[24.481124] (-) TimerEvent: {}
+[24.581491] (-) TimerEvent: {}
+[24.681854] (-) TimerEvent: {}
+[24.782234] (-) TimerEvent: {}
+[24.882663] (-) TimerEvent: {}
+[24.983013] (-) TimerEvent: {}
+[25.083365] (-) TimerEvent: {}
+[25.183758] (-) TimerEvent: {}
+[25.284134] (-) TimerEvent: {}
+[25.380736] (roberto) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[25.384282] (-) TimerEvent: {}
+[25.484577] (-) TimerEvent: {}
+[25.496263] (roberto) StdoutLine: {'line': b'-- Configuring done (25.5s)\n'}
+[25.555383] (roberto) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[25.566965] (roberto) StdoutLine: {'line': b'-- Build files have been written to: /root/ROS2/turtlebot3_ws/src/roberto/build/roberto\n'}
+[25.584713] (-) TimerEvent: {}
+[25.588928] (roberto) CommandEnded: {'returncode': 0}
+[25.590450] (roberto) JobProgress: {'identifier': 'roberto', 'progress': 'build'}
+[25.591724] (roberto) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', '--', '-j8', '-l8'], 'cwd': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'env': OrderedDict({'GZ_SLEEP_BEFORE_STARTUP_SECS': '2', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/opt/ros/jazzy/share/turtlebot3_gazebo/models', 'USER': 'root', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'NAME': 'DESKTOP-30Q2FHM', 'WSL_INTEROP': '/run/WSL/322_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ogre_vulkan_render_system': '0', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/josue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josue/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josue/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '47c8a665-b12f-40af-81d5-436bd64c376b', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': '8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '4.1', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[25.678518] (roberto) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o\x1b[0m\n'}
+[25.678717] (roberto) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o\x1b[0m\n'}
+[25.680855] (roberto) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[25.681170] (roberto) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o\x1b[0m\n'}
+[25.684887] (-) TimerEvent: {}
+[25.785240] (-) TimerEvent: {}
+[25.885595] (-) TimerEvent: {}
+[25.985949] (-) TimerEvent: {}
+[26.086313] (-) TimerEvent: {}
+[26.186678] (-) TimerEvent: {}
+[26.287077] (-) TimerEvent: {}
+[26.387414] (-) TimerEvent: {}
+[26.487759] (-) TimerEvent: {}
+[26.588127] (-) TimerEvent: {}
+[26.688708] (-) TimerEvent: {}
+[26.789175] (-) TimerEvent: {}
+[26.889594] (-) TimerEvent: {}
+[26.990099] (-) TimerEvent: {}
+[27.090555] (-) TimerEvent: {}
+[27.191008] (-) TimerEvent: {}
+[27.291472] (-) TimerEvent: {}
+[27.391983] (-) TimerEvent: {}
+[27.492349] (-) TimerEvent: {}
+[27.592838] (-) TimerEvent: {}
+[27.693257] (-) TimerEvent: {}
+[27.793725] (-) TimerEvent: {}
+[27.894169] (-) TimerEvent: {}
+[27.994456] (-) TimerEvent: {}
+[28.094716] (-) TimerEvent: {}
+[28.195024] (-) TimerEvent: {}
+[28.295322] (-) TimerEvent: {}
+[28.395683] (-) TimerEvent: {}
+[28.496116] (-) TimerEvent: {}
+[28.596389] (-) TimerEvent: {}
+[28.696681] (-) TimerEvent: {}
+[28.796974] (-) TimerEvent: {}
+[28.897294] (-) TimerEvent: {}
+[28.997622] (-) TimerEvent: {}
+[29.098032] (-) TimerEvent: {}
+[29.198467] (-) TimerEvent: {}
+[29.298788] (-) TimerEvent: {}
+[29.382522] (roberto) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[29.383209] (roberto) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[29.398931] (-) TimerEvent: {}
+[29.499348] (-) TimerEvent: {}
+[29.599678] (-) TimerEvent: {}
+[29.685616] (roberto) StdoutLine: {'line': b'[ 75%] Built target obstacle2\n'}
+[29.699858] (-) TimerEvent: {}
+[29.712685] (roberto) StdoutLine: {'line': b'[ 75%] Built target obstacle1\n'}
+[29.799976] (-) TimerEvent: {}
+[29.900376] (-) TimerEvent: {}
+[29.929739] (roberto) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[30.000554] (-) TimerEvent: {}
+[30.101287] (-) TimerEvent: {}
+[30.201669] (-) TimerEvent: {}
+[30.293338] (roberto) StdoutLine: {'line': b'[ 87%] Built target obstacles\n'}
+[30.301726] (-) TimerEvent: {}
+[30.402005] (-) TimerEvent: {}
+[30.502299] (-) TimerEvent: {}
+[30.602585] (-) TimerEvent: {}
+[30.702924] (-) TimerEvent: {}
+[30.803356] (-) TimerEvent: {}
+[30.903653] (-) TimerEvent: {}
+[31.003975] (-) TimerEvent: {}
+[31.104260] (-) TimerEvent: {}
+[31.204584] (-) TimerEvent: {}
+[31.304916] (-) TimerEvent: {}
+[31.405227] (-) TimerEvent: {}
+[31.505610] (-) TimerEvent: {}
+[31.606033] (-) TimerEvent: {}
+[31.706579] (-) TimerEvent: {}
+[31.806920] (-) TimerEvent: {}
+[31.907207] (-) TimerEvent: {}
+[32.007506] (-) TimerEvent: {}
+[32.107814] (-) TimerEvent: {}
+[32.208132] (-) TimerEvent: {}
+[32.308414] (-) TimerEvent: {}
+[32.408697] (-) TimerEvent: {}
+[32.508978] (-) TimerEvent: {}
+[32.609271] (-) TimerEvent: {}
+[32.709633] (-) TimerEvent: {}
+[32.809990] (-) TimerEvent: {}
+[32.910380] (-) TimerEvent: {}
+[33.010720] (-) TimerEvent: {}
+[33.111078] (-) TimerEvent: {}
+[33.211415] (-) TimerEvent: {}
+[33.311755] (-) TimerEvent: {}
+[33.412149] (-) TimerEvent: {}
+[33.512611] (-) TimerEvent: {}
+[33.613136] (-) TimerEvent: {}
+[33.713488] (-) TimerEvent: {}
+[33.813832] (-) TimerEvent: {}
+[33.914163] (-) TimerEvent: {}
+[34.014512] (-) TimerEvent: {}
+[34.114848] (-) TimerEvent: {}
+[34.215225] (-) TimerEvent: {}
+[34.315568] (-) TimerEvent: {}
+[34.415998] (-) TimerEvent: {}
+[34.516381] (-) TimerEvent: {}
+[34.616764] (-) TimerEvent: {}
+[34.717174] (-) TimerEvent: {}
+[34.817582] (-) TimerEvent: {}
+[34.917943] (-) TimerEvent: {}
+[35.018357] (-) TimerEvent: {}
+[35.118730] (-) TimerEvent: {}
+[35.219184] (-) TimerEvent: {}
+[35.319593] (-) TimerEvent: {}
+[35.420059] (-) TimerEvent: {}
+[35.520416] (-) TimerEvent: {}
+[35.620796] (-) TimerEvent: {}
+[35.721226] (-) TimerEvent: {}
+[35.821577] (-) TimerEvent: {}
+[35.921997] (-) TimerEvent: {}
+[36.022363] (-) TimerEvent: {}
+[36.122611] (-) TimerEvent: {}
+[36.222906] (-) TimerEvent: {}
+[36.323200] (-) TimerEvent: {}
+[36.423502] (-) TimerEvent: {}
+[36.523883] (-) TimerEvent: {}
+[36.624195] (-) TimerEvent: {}
+[36.724466] (-) TimerEvent: {}
+[36.824771] (-) TimerEvent: {}
+[36.925056] (-) TimerEvent: {}
+[37.025335] (-) TimerEvent: {}
+[37.125631] (-) TimerEvent: {}
+[37.225933] (-) TimerEvent: {}
+[37.326201] (-) TimerEvent: {}
+[37.426469] (-) TimerEvent: {}
+[37.526758] (-) TimerEvent: {}
+[37.627045] (-) TimerEvent: {}
+[37.727334] (-) TimerEvent: {}
+[37.827710] (-) TimerEvent: {}
+[37.928149] (-) TimerEvent: {}
+[38.028429] (-) TimerEvent: {}
+[38.128742] (-) TimerEvent: {}
+[38.229045] (-) TimerEvent: {}
+[38.329332] (-) TimerEvent: {}
+[38.429670] (-) TimerEvent: {}
+[38.530018] (-) TimerEvent: {}
+[38.630319] (-) TimerEvent: {}
+[38.730666] (-) TimerEvent: {}
+[38.831004] (-) TimerEvent: {}
+[38.931369] (-) TimerEvent: {}
+[39.031623] (-) TimerEvent: {}
+[39.131979] (-) TimerEvent: {}
+[39.232341] (-) TimerEvent: {}
+[39.332670] (-) TimerEvent: {}
+[39.433027] (-) TimerEvent: {}
+[39.441848] (roberto) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[39.533167] (-) TimerEvent: {}
+[39.633551] (-) TimerEvent: {}
+[39.733889] (-) TimerEvent: {}
+[39.834236] (-) TimerEvent: {}
+[39.934611] (-) TimerEvent: {}
+[40.034950] (-) TimerEvent: {}
+[40.109336] (roberto) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[40.127745] (roberto) CommandEnded: {'returncode': 0}
+[40.128669] (roberto) JobProgress: {'identifier': 'roberto', 'progress': 'install'}
+[40.135058] (-) TimerEvent: {}
+[40.142443] (roberto) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto'], 'cwd': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'env': OrderedDict({'GZ_SLEEP_BEFORE_STARTUP_SECS': '2', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/opt/ros/jazzy/share/turtlebot3_gazebo/models', 'USER': 'root', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{d8e96812-b789-5068-a5ae-10b2fb53e95f}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'NAME': 'DESKTOP-30Q2FHM', 'WSL_INTEROP': '/run/WSL/322_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ogre_vulkan_render_system': '0', 'TERM': 'xterm-256color', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/josue/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/josue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josue/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josue/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '47c8a665-b12f-40af-81d5-436bd64c376b', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'GZ_IP': '127.0.0.1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': '8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'MESA_GL_VERSION_OVERRIDE': '4.1', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/root/ROS2/turtlebot3_ws/install/roberto:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[40.154571] (roberto) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.155682] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/turtlebot3_drive\n'}
+[40.165299] (roberto) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/turtlebot3_drive" to ""\n'}
+[40.165464] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacles.so\n'}
+[40.166789] (roberto) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacles.so" to ""\n'}
+[40.167144] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacle1.so\n'}
+[40.168026] (roberto) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacle1.so" to ""\n'}
+[40.168377] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacle2.so\n'}
+[40.169238] (roberto) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ROS2/turtlebot3_ws/src/roberto/install/roberto/lib/roberto/libobstacle2.so" to ""\n'}
+[40.169490] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//launch\n'}
+[40.170325] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//launch/spawn_turtlebot3.launch.py\n'}
+[40.170582] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//launch/robot_state_publisher.launch.py\n'}
+[40.170696] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//launch/roberto.launch.py\n'}
+[40.170912] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models\n'}
+[40.171156] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall\n'}
+[40.171511] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model-1_4.sdf\n'}
+[40.171766] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model-1_3.sdf\n'}
+[40.171873] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model-1_3.sdf:Zone.Identifier\n'}
+[40.172075] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model.config\n'}
+[40.172393] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model.sdf:Zone.Identifier\n'}
+[40.172539] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model-1_4.sdf:Zone.Identifier\n'}
+[40.172755] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model.config:Zone.Identifier\n'}
+[40.172841] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials\n'}
+[40.173007] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/textures\n'}
+[40.173433] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/textures/grey_wall.png\n'}
+[40.178203] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/textures/grey_wall.png:Zone.Identifier\n'}
+[40.178471] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/scripts\n'}
+[40.178783] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/scripts/grey_wall.material:Zone.Identifier\n'}
+[40.179044] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/materials/scripts/grey_wall.material\n'}
+[40.179146] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/grey_wall/model.sdf\n'}
+[40.179366] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/small_house\n'}
+[40.179668] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/small_house/model.config\n'}
+[40.179848] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/small_house/model.sdf\n'}
+[40.180077] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane\n'}
+[40.180508] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_4.sdf\n'}
+[40.180843] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_2.sdf:Zone.Identifier\n'}
+[40.181036] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_3.sdf\n'}
+[40.181247] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_3.sdf:Zone.Identifier\n'}
+[40.181385] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model.config\n'}
+[40.181616] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model.sdf:Zone.Identifier\n'}
+[40.181738] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_4.sdf:Zone.Identifier\n'}
+[40.182003] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model.config:Zone.Identifier\n'}
+[40.182249] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model.sdf\n'}
+[40.182355] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/ground_plane/model-1_2.sdf\n'}
+[40.182427] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam\n'}
+[40.182647] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam/model-1_4.sdf\n'}
+[40.182753] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam/model-1_4.sdf:Zone - Copy.Identifier\n'}
+[40.183061] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam/model.config\n'}
+[40.183208] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam/model.config:Zone - Copy.Identifier\n'}
+[40.183424] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger_cam/model.sdf\n'}
+[40.183538] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls\n'}
+[40.183830] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/model.config\n'}
+[40.184193] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/model.sdf:Zone.Identifier\n'}
+[40.184343] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/model.config:Zone.Identifier\n'}
+[40.184559] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials\n'}
+[40.184855] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/textures\n'}
+[40.185083] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/textures/grey_wall.png\n'}
+[40.189655] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/textures/grey_wall.png:Zone.Identifier\n'}
+[40.190142] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/scripts\n'}
+[40.190400] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/scripts/grey_wall.material:Zone.Identifier\n'}
+[40.190506] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/materials/scripts/grey_wall.material\n'}
+[40.190741] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/warehouse_walls/model.sdf\n'}
+[40.190847] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun\n'}
+[40.191268] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_4.sdf\n'}
+[40.191631] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_2.sdf:Zone.Identifier\n'}
+[40.192057] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_3.sdf\n'}
+[40.192179] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_3.sdf:Zone.Identifier\n'}
+[40.192252] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model.config\n'}
+[40.192549] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model.sdf:Zone.Identifier\n'}
+[40.192767] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_4.sdf:Zone.Identifier\n'}
+[40.193029] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model.config:Zone.Identifier\n'}
+[40.193135] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model.sdf\n'}
+[40.193437] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/sun/model-1_2.sdf\n'}
+[40.193543] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas\n'}
+[40.193833] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye\n'}
+[40.194237] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/model.config\n'}
+[40.194483] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes\n'}
+[40.194716] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/naokoeye.dae\n'}
+[40.207367] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/naokoeye.png\n'}
+[40.208148] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/brown_eye.png\n'}
+[40.209178] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/naokoeyev2.dae\n'}
+[40.220134] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/eyebrow001.png\n'}
+[40.220439] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/female_casualsuit02_normal.png\n'}
+[40.222629] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/female_casualsuit02_diffuse.png\n'}
+[40.228118] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/meshes/bob02_diffuse.png\n'}
+[40.232580] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/naokoeye/model.sdf\n'}
+[40.232838] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye\n'}
+[40.233212] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/model.config\n'}
+[40.233465] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes\n'}
+[40.233769] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/brown_eye.png\n'}
+[40.234654] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/shoes03_diffuse.png\n'}
+[40.235147] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/young_darkskinned_male_diffuse.png\n'}
+[40.235254] (-) TimerEvent: {}
+[40.239105] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/male_casualsuit03_normal.png\n'}
+[40.250650] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/bobeye.png\n'}
+[40.251135] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/bobeyev2.dae\n'}
+[40.256359] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/eyebrow001.png\n'}
+[40.256699] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/teeth.png\n'}
+[40.258909] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/bobeye.dae\n'}
+[40.261571] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/tongue01_diffuse.png\n'}
+[40.262491] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/meshes/male_casualsuit03_diffuse.png\n'}
+[40.266752] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/bobeye/model.sdf\n'}
+[40.267080] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye\n'}
+[40.267433] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/model.config\n'}
+[40.267771] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes\n'}
+[40.268088] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/female_elegantsuit01_diffuse.png\n'}
+[40.270874] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/female_elegantsuit01_normal.png\n'}
+[40.273078] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/teeth.png\n'}
+[40.275544] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/gertrudiseyev2.dae\n'}
+[40.281517] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/old_lightskinned_female_diffuse.png\n'}
+[40.287398] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/green_eye.png\n'}
+[40.288314] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/gertrudiseye.png\n'}
+[40.288823] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/braid01_diffuse.png\n'}
+[40.292115] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/tongue01_diffuse.png\n'}
+[40.293097] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/meshes/gertrudiseye.dae\n'}
+[40.296122] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/gertrudiseye/model.sdf\n'}
+[40.296465] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye\n'}
+[40.296814] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/model.config\n'}
+[40.297074] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes\n'}
+[40.297336] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/eyebrow010.png\n'}
+[40.297618] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/brown_eye.png\n'}
+[40.298476] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/young_lightskinned_female_diffuse3.png\n'}
+[40.303299] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/kumaeye.png\n'}
+[40.303760] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/male_worksuit01_normal.png\n'}
+[40.312373] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/kumaeyev2.dae\n'}
+[40.318185] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/male_worksuit01_diffuse.png\n'}
+[40.322022] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/teeth.png\n'}
+[40.324255] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/short01_diffuse.png\n'}
+[40.327172] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/kumaeye.dae\n'}
+[40.330208] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/meshes/tongue01_diffuse.png\n'}
+[40.331167] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/modelos_pesonas/kumaeye/model.sdf\n'}
+[40.331488] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger\n'}
+[40.332020] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger/model-1_4.sdf\n'}
+[40.332324] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger/model-1_4.sdf:Zone - Copy.Identifier\n'}
+[40.332592] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger/model.config\n'}
+[40.332696] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger/model.config:Zone - Copy.Identifier\n'}
+[40.332769] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_burger/model.sdf\n'}
+[40.332992] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common\n'}
+[40.333299] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/model.config\n'}
+[40.333620] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/model.config:Zone - Copy.Identifier\n'}
+[40.333727] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes\n'}
+[40.333966] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[40.334242] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/lds.dae\n'}
+[40.334457] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/lds.dae:Zone - Copy.Identifier\n'}
+[40.334682] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/tire.dae:Zone - Copy.Identifier\n'}
+[40.334789] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/wheels\n'}
+[40.335056] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/wheels/right_tire.stl\n'}
+[40.335356] (-) TimerEvent: {}
+[40.336545] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/wheels/left_tire.stl\n'}
+[40.337912] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/wheels/right_tire.stl:Zone - Copy.Identifier\n'}
+[40.338209] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/wheels/left_tire.stl:Zone - Copy.Identifier\n'}
+[40.338319] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[40.338666] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/burger_base.dae:Zone - Copy.Identifier\n'}
+[40.338811] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/tire.dae\n'}
+[40.339051] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors\n'}
+[40.339274] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/r200.jpg\n'}
+[40.339568] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/lds.stl\n'}
+[40.340505] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/astra.jpg\n'}
+[40.340883] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/r200.jpg:Zone - Copy.Identifier\n'}
+[40.340997] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/astra.dae\n'}
+[40.351372] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/sensors/r200.dae\n'}
+[40.351785] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[40.351997] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/waffle_base.dae:Zone - Copy.Identifier\n'}
+[40.352232] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/r200.dae\n'}
+[40.352542] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases\n'}
+[40.352979] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl\n'}
+[40.362221] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl:Zone - Copy.Identifier\n'}
+[40.362577] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases/burger_base.stl\n'}
+[40.368175] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases/waffle_base.stl\n'}
+[40.387363] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/bases/waffle_base.stl:Zone - Copy.Identifier\n'}
+[40.387730] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/turtlebot3_common/meshes/waffle_pi_base.dae:Zone - Copy.Identifier\n'}
+[40.387838] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair\n'}
+[40.388189] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails\n'}
+[40.388483] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/5.png:Zone.Identifier\n'}
+[40.388739] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/4.png:Zone.Identifier\n'}
+[40.389036] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/3.png:Zone.Identifier\n'}
+[40.389143] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/2.png\n'}
+[40.389403] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/3.png\n'}
+[40.389517] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/4.png\n'}
+[40.389727] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/5.png\n'}
+[40.389977] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/2.png:Zone.Identifier\n'}
+[40.390077] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/1.png\n'}
+[40.390263] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/thumbnails/1.png:Zone.Identifier\n'}
+[40.390549] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/model.config\n'}
+[40.390659] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/model.sdf:Zone.Identifier\n'}
+[40.390922] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes\n'}
+[40.391287] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair_Col.obj:Zone.Identifier\n'}
+[40.391685] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair.obj:Zone.Identifier\n'}
+[40.392028] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChairDiffuse.png:Zone.Identifier\n'}
+[40.392154] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair_Col.mtl\n'}
+[40.392230] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChairDiffuse.png\n'}
+[40.392938] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair_Col.mtl:Zone.Identifier\n'}
+[40.393216] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair.mtl:Zone.Identifier\n'}
+[40.393322] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair.obj\n'}
+[40.393551] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair_Col.obj\n'}
+[40.393657] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/meshes/WhiteChipChair.mtl\n'}
+[40.393941] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/model.config:Zone.Identifier\n'}
+[40.394128] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/WhiteChipChair/model.sdf\n'}
+[40.394347] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe\n'}
+[40.394617] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/model.config\n'}
+[40.394883] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/meshes\n'}
+[40.395200] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/meshes/cafe.dae\n'}
+[40.397496] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials\n'}
+[40.397943] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures\n'}
+[40.398259] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_22.jpg\n'}
+[40.398429] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_35.jpg\n'}
+[40.398770] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_34.jpg\n'}
+[40.398877] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_23.jpg\n'}
+[40.399149] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_28.jpg\n'}
+[40.399258] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_10.jpg\n'}
+[40.399571] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_37.jpg\n'}
+[40.399814] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_25.jpg\n'}
+[40.399973] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_31.jpg\n'}
+[40.400226] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_30.jpg\n'}
+[40.400366] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_29.jpg\n'}
+[40.400654] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_24.jpg\n'}
+[40.400820] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_2.jpg\n'}
+[40.400987] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_21.jpg\n'}
+[40.401214] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/materials/textures/__auto_26.jpg\n'}
+[40.401321] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//models/cafe/model.sdf\n'}
+[40.401394] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params\n'}
+[40.401683] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_cam_bridge.yaml:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.401949] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_bridge.yaml\n'}
+[40.402291] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_bridge.yaml:Zone.Identifier\n'}
+[40.402434] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_cam_bridge.yaml\n'}
+[40.402585] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_cam_bridge.yaml:Zone.Identifier\n'}
+[40.402657] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_bridge.yaml:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.402933] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_cam_bridge.yaml:Zone - Copy.Identifier\n'}
+[40.403225] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//params/turtlebot3_burger_bridge.yaml:Zone - Copy.Identifier\n'}
+[40.403328] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//rviz\n'}
+[40.403559] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//rviz/turtlebot3_burger.urdf:Zone - Copy.Identifier\n'}
+[40.403667] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//rviz/turtlebot3_burger.urdf\n'}
+[40.403864] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//rviz/turtlebot3_burger.urdf:Zone.Identifier\n'}
+[40.404136] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//rviz/turtlebot3_burger.urdf:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.404237] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf\n'}
+[40.404470] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger_cam.urdf:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.404749] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger.urdf:Zone - Copy.Identifier\n'}
+[40.404973] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/common_properties.urdf:Zone.Identifier\n'}
+[40.405181] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/common_properties.urdf\n'}
+[40.405294] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger.urdf\n'}
+[40.405596] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger_cam.urdf\n'}
+[40.405869] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger_cam.urdf:Zone - Copy.Identifier\n'}
+[40.406094] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/common_properties.urdf:Zone.Identifier:Zone.Identifier\n'}
+[40.406215] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger_cam.urdf:Zone.Identifier\n'}
+[40.406458] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger.urdf:Zone.Identifier\n'}
+[40.406550] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//urdf/turtlebot3_burger.urdf:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.406622] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//worlds\n'}
+[40.406847] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//worlds/distribution_center.world\n'}
+[40.406952] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto//worlds/roberto.world\n'}
+[40.407177] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include/\n'}
+[40.407569] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//turtlebot3_drive.hpp:Zone - Copy.Identifier\n'}
+[40.407837] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_bar_plugin.hpp:Zone.Identifier:Zone.Identifier\n'}
+[40.408198] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle2.hpp:Zone.Identifier\n'}
+[40.408327] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacles.hpp:Zone.Identifier\n'}
+[40.408401] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_bar_plugin.hpp:Zone.Identifier\n'}
+[40.408656] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle1.hpp:Zone.Identifier\n'}
+[40.408934] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//turtlebot3_drive.hpp:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.409183] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle1.hpp\n'}
+[40.409295] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_bar_plugin.hpp\n'}
+[40.409551] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacles.hpp\n'}
+[40.409684] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_light_plugin.hpp\n'}
+[40.410095] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_light_plugin.hpp:Zone - Copy.Identifier:Zone.Identifier\n'}
+[40.410487] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle2.hpp\n'}
+[40.410800] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_light_plugin.hpp:Zone - Copy.Identifier\n'}
+[40.410912] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle2.hpp:Zone.Identifier:Zone.Identifier\n'}
+[40.411135] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//turtlebot3_drive.hpp\n'}
+[40.411244] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//turtlebot3_drive.hpp:Zone.Identifier\n'}
+[40.411492] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//my_world\n'}
+[40.411847] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//traffic_light_plugin.hpp:Zone.Identifier\n'}
+[40.412148] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacle1.hpp:Zone.Identifier:Zone.Identifier\n'}
+[40.412238] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/include//obstacles.hpp:Zone.Identifier:Zone.Identifier\n'}
+[40.413330] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/ament_index/resource_index/package_run_dependencies/roberto\n'}
+[40.414052] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/ament_index/resource_index/parent_prefix_path/roberto\n'}
+[40.414605] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/environment/ament_prefix_path.sh\n'}
+[40.414820] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/environment/ament_prefix_path.dsv\n'}
+[40.415029] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/environment/path.sh\n'}
+[40.415301] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/environment/path.dsv\n'}
+[40.415408] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/local_setup.bash\n'}
+[40.415670] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/local_setup.sh\n'}
+[40.415778] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/local_setup.zsh\n'}
+[40.416055] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/local_setup.dsv\n'}
+[40.416271] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/package.dsv\n'}
+[40.416727] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/ament_index/resource_index/packages/roberto\n'}
+[40.417293] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.417621] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.417864] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/cmake/robertoConfig.cmake\n'}
+[40.418150] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/cmake/robertoConfig-version.cmake\n'}
+[40.418256] (roberto) StdoutLine: {'line': b'-- Installing: /root/ROS2/turtlebot3_ws/src/roberto/install/roberto/share/roberto/package.xml\n'}
+[40.420778] (roberto) CommandEnded: {'returncode': 0}
+[40.435602] (-) TimerEvent: {}
+[40.441098] (roberto) JobEnded: {'identifier': 'roberto', 'rc': 0}
+[40.442522] (-) EventReactorShutdown: {}
