@@ -1,4 +1,0 @@
-Invoking command in '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ROS2/turtlebot3_ws/src/roberto -DCMAKE_INSTALL_PREFIX=/root/ROS2/turtlebot3_ws/src/roberto/install/roberto
-Invoked command in '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ROS2/turtlebot3_ws/src/roberto -DCMAKE_INSTALL_PREFIX=/root/ROS2/turtlebot3_ws/src/roberto/install/roberto
-Invoking command in '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ROS2/turtlebot3_ws/src/roberto/build/roberto -- -j8 -l8
-Invoked command in '/root/ROS2/turtlebot3_ws/src/roberto/build/roberto' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ROS2/turtlebot3_ws/src/roberto/build/roberto -- -j8 -l8
